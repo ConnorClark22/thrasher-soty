@@ -1,0 +1,772 @@
+html,
+body {
+    height: 100%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+
+body {
+    background-color: #cad2c5;
+}
+
+.navBar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 1 / 4;
+    padding: 1em;
+    justify-items: center;
+    background-color: black;
+    font-family: 'syncopate';
+}
+
+.topLink {
+    text-decoration: none;
+    color: #cad2c5;
+}
+
+.topLink:hover {
+    color: #8d99ae;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--- HOME PAGE STYLES ---*/
+
+#thrasher {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: center;
+}
+
+#logo {
+    max-width: 100%;
+    grid-column: 2 / 12;
+}
+
+#contest {
+    font-family: 'syncopate';
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin: 20px;
+}
+
+#year {
+    font-family: 'syncopate';
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 5px;
+    margin: 20px;
+}
+
+#homeInfo {
+    font-family: 'lato';
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#contenders {
+    font-family: 'syncopate';
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin: 1em;
+    padding: 5px;
+}
+
+.nameLinks {
+    font-family: 'syncopate';
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(16, auto);
+    column-gap: 1em;
+    row-gap: 1em;
+    justify-items: center;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+.profileLink {
+    text-decoration: none;
+    background-color: black;
+    color: #cad2c5;
+    text-align: center;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.profileLink:hover {
+    color: #8d99ae;
+}
+
+#louie {
+    grid-column: 2 / 12;
+    grid-row: 1 / 2;
+    margin-top: 2em;
+}
+
+.louiePic {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 2 / 3;
+}
+
+#ishod {
+    grid-column: 2 / 12;
+    grid-row: 3 / 4;
+    margin-top: 4em;
+
+}
+
+.ishodPic {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 4 / 5;
+}
+
+#tFunk {
+    grid-column: 2 / 12;
+    grid-row: 5 / 6;
+    margin-top: 4em;
+}
+
+.tFunkPic {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 6 / 7;
+}
+
+#braden {
+    grid-column: 2 / 12;
+    grid-row: 7 / 8;
+    margin-top: 4em;
+}
+
+.bradenPic {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 8 / 9;
+}
+
+#wade {
+    grid-column: 2 / 12;
+    grid-row: 9 / 10;
+    margin-top: 4em;
+}
+
+.wadePic {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 10 / 11;
+}
+
+#jake {
+    grid-column: 2 / 12;
+    grid-row: 11 / 12;
+    margin-top: 4em;
+}
+
+.jakePic {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 12 / 13;
+}
+
+#kader {
+    grid-column: 2 / 12;
+    grid-row: 13 / 14;
+    margin-top: 4em;
+}
+
+.kaderPic {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 14 / 15;
+}
+
+#tj {
+    grid-column: 2 / 12;
+    grid-row: 15 / 16;
+    margin-top: 4em;
+}
+
+.tjPic {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 16 / 17;
+    margin-bottom: 4em;
+}
+
+/*--- END HOME PAGE STYLES ---*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--- IFRAME STYLES ---*/
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*---END IFRAME STYLES ---*/
+
+
+
+
+
+
+
+
+
+/*--- PROFILE HEADER STYLES ---*/
+
+.profileHeader {
+    font-family: 'syncopate';
+    font-size: 25px;
+    letter-spacing: 3px;
+    background-color: black;
+    color: #cad2c5;
+    text-align: center;
+    margin: 2em;
+    padding: 1em;
+}
+
+/*--- END PROFILE HEADER STYLES ---*/
+
+
+
+
+
+
+
+
+
+/*--- DEFINES PROFILE PAGE GRIDS ---*/
+
+.profileGrid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, auto);
+    column-gap: 1em;
+    row-gap: 1em;
+    justify-items: center;
+}
+
+/*--- END PROFILE GRID ---*/
+
+
+
+
+
+
+
+
+
+/*--- PROFILE TEXT STYLES ---*/
+
+.profileText {
+    font-family: 'lato';
+    font-size: 20px;
+    text-align: center;
+}
+
+/*--- END PROFILE TEXT STYLES ---*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--- LOUIE STYLES ---*/
+
+#louieIntro {
+    grid-column: 2 / 12;
+    grid-row: 1 / 2;
+}
+
+#louiePic2 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 2 / 3;
+}
+
+#honorRollInfo {
+    grid-column: 2 / 12;
+    grid-row: 3 / 4;
+}
+
+#honorRoll {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+#honorRoll {
+    grid-column: 2 / 12;
+    grid-row: 4 / 5;
+}
+
+#againInfo {
+    grid-column: 2 / 12;
+    grid-row: 5 / 6;
+}
+
+#again {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+#again {
+    grid-column: 2 / 12;
+    grid-row: 6 / 7;
+}
+
+#louiePic3 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 7 / 8;
+}
+
+#louiePic4 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 8 / 9;
+}
+
+#louiePic5 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 9 / 10;
+}
+
+#louiePic6 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 10 / 11;
+    margin-bottom: 2em;
+}
+
+/*--- END LOUIE STYLES ---*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--- ISHOD STYLES ---*/
+
+#ishodIntro {
+    grid-column: 2 / 12;
+    grid-row: 1 / 2;
+}
+
+#ishodPic2 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 2 / 3;
+}
+
+#realPart {
+    grid-column: 2 / 12;
+    grid-row: 3 / 4;
+}
+
+#ishodPic3 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 4 / 5;
+}
+
+#ishodPic4 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 5 / 6;
+}
+
+#ishodPic5 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 6 / 7;
+}
+
+/*--- END ISHOD STYLES ---*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--- T FUNK STYLES ---*/
+
+#tFunkIntro {
+    grid-column: 2 / 12;
+    grid-row: 1 / 2;
+}
+
+#tFunkPic2 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 2 / 3;
+}
+
+#bakerInfo {
+    grid-column: 2 / 12;
+    grid-row: 3 / 4;
+}
+
+#tFunkPic3 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 4 / 5;
+}
+
+#tFunkPic4 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 5 / 6;
+}
+
+#tFunkPic5 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 6 / 7;
+}
+
+#tFunkPic6 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 7 / 8;
+}
+
+/*--- END T FUNK STYLES ---*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--- BRADEN STYLES ---*/
+
+#bradenIntro {
+    grid-column: 2 / 12;
+    grid-row: 1 / 2;
+}
+
+#bradenPic2 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 2 / 3;
+}
+
+#emergeInfo {
+    grid-column: 2 / 12;
+    grid-row: 3 / 4;
+}
+
+#bradenPic3 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 4 / 5;
+}
+
+#vaccineInfo {
+    grid-column: 2 / 12;
+    grid-row: 5 / 6;
+}
+
+#bradenPic4 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 6 / 7;
+}
+
+#bradenPic5 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 7 / 8;
+}
+
+#bradenPic6 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 8 / 9;
+}
+
+/*--- END BRADEN STYLES ---*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--- WADE STYLES ---*/
+
+#wadeIntro {
+    grid-column: 2 / 12;
+    grid-row: 1 / 2;
+}
+
+#wadePic2 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 2 / 3;
+}
+
+#defineInfo {
+    grid-column: 2 / 12;
+    grid-row: 3 / 4;
+}
+
+#wadePic3 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 4 / 5;
+}
+
+#wadePic4 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 5 / 6;
+}
+
+#wadePic5 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 6 / 7;
+}
+
+/*--- END WADE STYLES ---*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*--- JAKE STYLES ---*/
+
+#jakeIntro {
+    grid-column: 2 / 12;
+    grid-row: 1 / 2;
+}
+
+#jakePic2 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 2 / 3;
+}
+
+#stopInfo {
+    grid-column: 2 / 12;
+    grid-row: 3 / 4;
+}
+
+#jakePic3 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 4 / 5;
+}
+
+#jakePic4 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 5 / 6;
+}
+
+#jakePic5 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 6 / 7;
+}
+
+#jakePic6 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 7 / 8;
+}
+
+/*--- END JAKE STYLES ---*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*--- KADER STYLES ---*/
+
+#kaderIntro {
+    grid-column: 2 / 12;
+    grid-row: 1 / 2;
+}
+
+#kaderPic2 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 2 / 3;
+}
+
+#adidasInfo {
+    grid-column: 2 / 12;
+    grid-row: 3 / 4;
+}
+
+#kaderPic3 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 4 / 5;
+}
+
+#kaderPic4 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 5 / 6;
+}
+
+#kaderPic5 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 6 / 7;
+}
+
+/*--- END KADER STYLES ---*/
+
+
+
+
+
+
+
+
+
+
+
+/*--- TJ STYLES ---*/
+
+#tjIntro {
+    grid-column: 2 / 12;
+    grid-row: 1 / 2;
+}
+
+#tjPic2 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 2 / 3;
+}
+
+#esInfo {
+    grid-column: 2 / 12;
+    grid-row: 3 / 4;
+}
+
+#tjPic3 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 4 / 5;
+}
+
+#esInfo2 {
+    grid-column: 2 / 12;
+    grid-row: 5 / 6;
+}
+
+#tjPic4 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 6 / 7;
+}
+
+#tjPic5 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 7 / 8;
+}
+
+/*--- END TJ STYLES ---*/
