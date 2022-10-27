@@ -333,14 +333,14 @@ iframe {
     grid-row: 3 / 4;
 }
 
-#honorRoll {
+#honorRollApi {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
 }
 
-#honorRoll {
+#honorRollApi {
     grid-column: 2 / 12;
     grid-row: 4 / 5;
 }
@@ -350,14 +350,14 @@ iframe {
     grid-row: 5 / 6;
 }
 
-#again {
+#againApi {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
 }
 
-#again {
+#againApi {
     grid-column: 2 / 12;
     grid-row: 6 / 7;
 }
@@ -420,14 +420,14 @@ iframe {
     grid-row: 3 / 4;
 }
 
-#realVid {
+#realApi {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
 }
 
-#realVid {
+#realApi {
     grid-column: 2 / 12;
     grid-row: 4 / 5;
 }
@@ -437,14 +437,14 @@ iframe {
     grid-row: 5 / 6;
 }
 
-#bayVid {
+#bayApi {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
 }
 
-#bayVid {
+#bayApi {
     grid-column: 2 / 12;
     grid-row: 6 / 7;
 }
@@ -503,28 +503,40 @@ iframe {
     grid-row: 3 / 4;
 }
 
-#tFunkPic3 {
-    max-width: 100%;
+#bakerApi {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+#bakerApi {
     grid-column: 2 / 12;
     grid-row: 4 / 5;
 }
 
-#tFunkPic4 {
+#tFunkPic3 {
     max-width: 100%;
     grid-column: 2 / 12;
     grid-row: 5 / 6;
 }
 
-#tFunkPic5 {
+#tFunkPic4 {
     max-width: 100%;
     grid-column: 2 / 12;
     grid-row: 6 / 7;
 }
 
-#tFunkPic6 {
+#tFunkPic5 {
     max-width: 100%;
     grid-column: 2 / 12;
     grid-row: 7 / 8;
+}
+
+#tFunkPic6 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 8 / 9;
 }
 
 /*--- END T FUNK STYLES ---*/
@@ -562,8 +574,15 @@ iframe {
     grid-row: 3 / 4;
 }
 
-#bradenPic3 {
-    max-width: 100%;
+#emergeApi {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+
+#emergeApi {
     grid-column: 2 / 12;
     grid-row: 4 / 5;
 }
@@ -573,22 +592,40 @@ iframe {
     grid-row: 5 / 6;
 }
 
-#bradenPic4 {
-    max-width: 100%;
+#vaccineApi {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+#vaccineApi {
     grid-column: 2 / 12;
     grid-row: 6 / 7;
 }
 
-#bradenPic5 {
+#bradenPic3 {
     max-width: 100%;
     grid-column: 2 / 12;
     grid-row: 7 / 8;
 }
 
-#bradenPic6 {
+#bradenPic4 {
     max-width: 100%;
     grid-column: 2 / 12;
     grid-row: 8 / 9;
+}
+
+#bradenPic5 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 9 / 10;
+}
+
+#bradenPic6 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 10 / 11 ;
 }
 
 /*--- END BRADEN STYLES ---*/
@@ -624,23 +661,34 @@ iframe {
     grid-column: 2 / 12;
     grid-row: 3 / 4;
 }
+#defineApi {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
 
-#wadePic3 {
-    max-width: 100%;
+#defineApi {
     grid-column: 2 / 12;
     grid-row: 4 / 5;
 }
 
-#wadePic4 {
+#wadePic3 {
     max-width: 100%;
     grid-column: 2 / 12;
     grid-row: 5 / 6;
 }
 
-#wadePic5 {
+#wadePic4 {
     max-width: 100%;
     grid-column: 2 / 12;
     grid-row: 6 / 7;
+}
+
+#wadePic5 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 7 / 8;
 }
 
 /*--- END WADE STYLES ---*/
@@ -674,28 +722,40 @@ iframe {
     grid-row: 3 / 4;
 }
 
-#jakePic3 {
-    max-width: 100%;
+#stopApi {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+#stopApi {
     grid-column: 2 / 12;
     grid-row: 4 / 5;
 }
 
-#jakePic4 {
+#jakePic3 {
     max-width: 100%;
     grid-column: 2 / 12;
     grid-row: 5 / 6;
 }
 
-#jakePic5 {
+#jakePic4 {
     max-width: 100%;
     grid-column: 2 / 12;
     grid-row: 6 / 7;
 }
 
-#jakePic6 {
+#jakePic5 {
     max-width: 100%;
     grid-column: 2 / 12;
     grid-row: 7 / 8;
+}
+
+#jakePic6 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 8 / 9;
 }
 
 /*--- END JAKE STYLES ---*/
@@ -729,22 +789,34 @@ iframe {
     grid-row: 3 / 4;
 }
 
-#kaderPic3 {
-    max-width: 100%;
+#adidasApi {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+#adidasApi {
     grid-column: 2 / 12;
     grid-row: 4 / 5;
 }
 
-#kaderPic4 {
+#kaderPic3 {
     max-width: 100%;
     grid-column: 2 / 12;
     grid-row: 5 / 6;
 }
 
-#kaderPic5 {
+#kaderPic4 {
     max-width: 100%;
     grid-column: 2 / 12;
     grid-row: 6 / 7;
+}
+
+#kaderPic5 {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 7 / 8;
 }
 
 /*--- END KADER STYLES ---*/
@@ -777,27 +849,135 @@ iframe {
     grid-row: 3 / 4;
 }
 
-#tjPic3 {
-    max-width: 100%;
+#esApi {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+#esApi {
     grid-column: 2 / 12;
     grid-row: 4 / 5;
 }
 
-#esInfo2 {
+#tjPic3 {
+    max-width: 100%;
     grid-column: 2 / 12;
     grid-row: 5 / 6;
+}
+
+#esInfo2 {
+    grid-column: 2 / 12;
+    grid-row: 6 / 7;
 }
 
 #tjPic4 {
     max-width: 100%;
     grid-column: 2 / 12;
-    grid-row: 6 / 7;
+    grid-row: 7 / 8;
 }
 
 #tjPic5 {
     max-width: 100%;
     grid-column: 2 / 12;
-    grid-row: 7 / 8;
+    grid-row: 8 / 9;
 }
 
 /*--- END TJ STYLES ---*/
+
+
+
+
+
+
+
+
+
+/*--- DEFINES ABOUT PAGE GRID ---*/
+
+.aboutGrid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, auto);
+    column-gap: 1em;
+    row-gap: 1em;
+    justify-items: center;
+}
+
+/*--- END ABOUT GRID ---*/
+
+
+
+
+
+
+
+
+
+
+/*--- ABOUT PAGE STYLES ---*/
+
+.aboutText{
+    font-family: 'lato';
+    font-size: 20px;
+    text-align: center;
+}
+
+#aboutInfo {
+    grid-column: 2 / 12;
+    grid-row: 1 / 2;
+}
+
+#trophy {
+    max-width: 100%;
+    grid-column: 2 / 12;
+    grid-row: 2 / 3;
+}
+
+#winnerHeading {
+    font-family: 'syncopate';
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: 20px;
+    grid-column: 2 / 12;
+    grid-row: 3 / 4;
+}
+
+#winnerList {
+    font-family: 'lato';
+    font-size: 15px;
+    list-style: none;
+    grid-column: 1 / 6;
+    grid-row: 4 / 5;
+}
+
+#winnerList2 {
+    font-family: 'lato';
+    font-size: 15px;
+    list-style: none;
+    grid-column: 6 / 13;
+    grid-row: 4 / 5;
+}
+
+#partInfo {
+    grid-column: 2 / 12;
+    grid-row: 5 / 6;
+}
+
+#partChart {
+    grid-column: 2 / 12;
+    grid-row: 6 / 7;
+}
+
+#styleInfo {
+    grid-column: 2 / 12;
+    grid-row: 7 / 8;
+}
+
+#styleChart {
+    grid-column: 2 / 12;
+    grid-row: 8 / 9;
+}
+

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,132 @@
 
     <link rel="stylesheet" type="text/css" href="styles.css">
 
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+    crossorigin=""/>
+
+
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+    integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+    crossorigin=""></script>
+
+
+
+
+
+
+
+    <title>About | Skater Of The Year</title>
 </head>
+
 <body>
-    
+
+    <nav class="navBar">
+        <a class="topLink" href="index.html">HOME</a>
+        <a class="topLink" href="contact.html">CONTACT US</a>
+        <a class="topLink" href="about.html">ABOUT</a>
+    </nav>
+
+    <section id="thrasher">
+        <img id="logo" src="photos/thrasherLogo.PNG" alt="Thrasher Logo">
+    </section>
+
+    <h1 id="contest">SKATER OF THE YEAR</h1>
+
+    <h2 id="year">2022</h2>
+
+    <div class="aboutGrid">
+        <p class="aboutText" id="aboutInfo">
+            The title of "Skater of the Year" is awarded annually by Thrasher. The tradition was started in 1990, and
+            the
+            accolade remains one of the most respected awards in global skateboarding culture. The title is bestowed to
+            one
+            skater annually and announced by Thrasher's editor.
+        </p>
+
+        <img id="trophy" src="photos/sotyTrophy.jpg" alt="Skater Of The Year Trophy">
+
+
+        <h3 id="winnerHeading">
+            PREVIOUS WINNERS
+        </h3>
+
+        <ol class="winnerText" id="winnerList">
+            <li>1990: Tony Hawk</li>
+            <li>1991: Danny Way</li>
+            <li>1992: John Cardiel</li>
+            <li>1993: Salman Agah</li>
+            <li>1994: Mike Carroll</li>
+            <li>1995: Chris Senn</li>
+            <li>1996: Eric Koston</li>
+            <li>1997: Bob Burnquist</li>
+            <li>1998: Andrew Reynolds</li>
+            <li>1999: Brian Anderson</li>
+            <li>2000: Geoff Rowley</li>
+            <li>2001: Arto Saari</li>
+            <li>2002: Tony Trujillo</li>
+            <li>2003: Mark Appleyard</li>
+            <li>2004: Danny Way</li>
+            <li>2005: Chris Cole</li>
+        </ol>
+
+        <ol class="winnerText" id="winnerList2">
+            <li>2006: Daewon Song</li>
+            <li>2007: Marc Johnson</li>
+            <li>2008: Silas Baxter-Neal</li>
+            <li>2009: Chris Cole</li>
+            <li>2010: Leo Romero</li>
+            <li>2011: Grant Taylor</li>
+            <li>2012: David Gonzalez</li>
+            <li>2013: Ishod Wair</li>
+            <li>2014: Wes Kremer</li>
+            <li>2015: Anthony Van Engelen</li>
+            <li>2016: Kyle Walker</li>
+            <li>2017: Jamie Foy</li>
+            <li>2018: Tyshawn Jones</li>
+            <li>2019: Milton Martinez</li>
+            <li>2020: Mason Silva</li>
+            <li>2021: Mark Suciu</li>
+        </ol>
+
+        <p class="aboutText" id="partInfo">
+            In the early days of the contest it was very common to for the winner to have just put out one video part.
+            Over the years however, expectations have grown for the skateboarders looking to win the award. It is not
+            uncommon in the current age of skateboarding for the winner to have released two or more video parts.
+        </p>
+
+        <div id="partChart">
+        </div>
+
+        <p class="aboutText" id="styleInfo">
+            Since 1990, the award has been handed to vert skaters, street skaters, and skaters that take up both
+            disciplines. The style of street skating has dominated the contest for the most part.
+        </p>
+
+        <div id="styleChart">
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="script.js"></script>
+    <script src="charts.js"></script>
+
 </body>
+
 </html>
