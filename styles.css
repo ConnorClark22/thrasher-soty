@@ -13,8 +13,90 @@ body {
 body {
     background-color: #cad2c5;
 }
+/*--- NAV BAR STYLES ---*/
+
 
 .navBar {
+    display: none;
+}
+
+.phoneNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'syncopate';
+    background-color: black;
+}
+
+.phoneTitle {
+    font-family: 'syncopate';
+    color: #cad2c5;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+.navLinks {
+    position: absolute;
+    right: 0px;
+    height: 25vh;
+    top: 8vh;
+    background-color: black;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 25%;
+    transform: translateX(100%);
+}
+
+.navLinks li {
+    opacity: 0;
+}
+
+.burger {
+    display: block;
+    cursor: pointer;
+}
+
+.nav-active {
+    transform: translateX(0%);
+    display: flex;
+}
+
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(35px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.navLinks li {
+    list-style: none;
+}
+
+.navLinks a {
+    color: #cad2c5;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+
+.burger div {
+   width: 25px;
+   height: 2px;
+   background-color: #cad2c5;
+   margin: 5px;
+}
+
+
+
+/*.navBar {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column: 1 / 4;
@@ -24,6 +106,7 @@ body {
     font-family: 'syncopate';
 }
 
+
 .topLink {
     text-decoration: none;
     color: #cad2c5;
@@ -32,6 +115,7 @@ body {
 .topLink:hover {
     color: #8d99ae;
 }
+/*
 
 
 
@@ -979,5 +1063,102 @@ iframe {
 #styleChart {
     grid-column: 2 / 12;
     grid-row: 8 / 9;
+}
+
+/*--- END ABOUT PAGE STYLES ---*/
+
+
+
+
+
+
+
+
+
+
+/*--- CONTACT PAGE STYLES ---*/
+
+#contactHead {
+    font-family: 'syncopate';
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin: 2em;
+}
+
+#contactP {
+    font-family: 'lato';
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: 1em;
+
+}
+
+#contact {
+    font-family: 'lato';
+}
+
+#contactForm {
+    max-width: 550px;
+    width: 90%;
+    margin: 2em auto 0 auto;
+    padding: 20px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin: 20px 0;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-bottom: 1px solid rgb(230, 158, 58);
+}
+
+textarea::-webkit-scrollbar {
+    width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: rgb(230, 158, 58);
+}
+
+.center {
+    text-align: center;
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 200px;
+    font-family: 'lato';
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.error {
+    color: red;
+}
+
+.error-border {
+    border-bottom: 1px solid red;
+}
+
+#success {
+    color: green;
 }
 

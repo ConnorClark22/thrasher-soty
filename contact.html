@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,18 @@
 
     <link rel="stylesheet" type="text/css" href="styles.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 
 
-    <title>Document</title>
+
+
+    <title>Contact Us | Skater of The Year</title>
 </head>
 
 
@@ -17,7 +27,48 @@
 <body>
 
 
+    <nav class="navBar">
+        <a class="topLink" href="index.html">HOME</a>
+        <a class="topLink" href="contact.html">CONTACT US</a>
+        <a class="topLink" href="about.html">ABOUT</a>
+    </nav>
 
-    <script src="map.js"></script>
+    <h1 id="contactHead">CONTACT US</h1>
+
+    <p id="contactP">We'd love to hear your thoughts on this year's contest.</p>
+
+    <div id="contact">
+        <form id="contactForm" onsubmit="event.preventDefault(); validate();">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Your name">
+            <small class="error"></small>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Your email">
+            <small class="error"></small>
+
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Your message" rows="10"></textarea>
+            <small class="error"></small>
+
+            <div>Max Characters: 300</div>
+            <span id="characters"></span>
+
+            <div class="center">
+                <input type="submit" value="Send Message">
+                <p id="success"></p>
+
+            </div>
+
+        </form>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>

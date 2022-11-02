@@ -1,6 +1,6 @@
 // Louie Lopez Honor Roll Player
 function loadHonorRollPlayer() {
-    fetch("https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2Cplayer&id=Y-A7pqw4Mxg&key=AIzaSyDuwQd5h_HvMexLOcKEHFbqMdLLwxpn728")
+   fetch("https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2Cplayer&id=Y-A7pqw4Mxg&key=AIzaSyDuwQd5h_HvMexLOcKEHFbqMdLLwxpn728")
       .then((res) => {
         return res.json();
       })
@@ -35,6 +35,4 @@ function loadHonorRollPlayer() {
       })
   };
   
-  loadAgainPlayer();
-  
-  
+  loadAgainPlayer(); 
