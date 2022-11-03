@@ -62,7 +62,7 @@
     <p id="contactP">We'd love to hear your thoughts on this year's contest.</p>
 
     <div id="contact">
-        <form id="contactForm" onsubmit="event.preventDefault(); validate();">
+        <form id="contactForm" onsubmit="event.preventDefault(); validate();" onload="event.charCounter();">
 
             <label for="name">Name:</label>
             <input type="text" id="name" placeholder="Your name">

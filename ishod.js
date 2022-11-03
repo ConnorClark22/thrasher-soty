@@ -1,5 +1,5 @@
 // Ishod Real Part Player
-function loadRealPlayer(){
+const loadRealPlayer = () => {
 fetch("https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2Cplayer&id=29-o8rogijk&key=AIzaSyDuwQd5h_HvMexLOcKEHFbqMdLLwxpn728")
 .then((res) => {
   return res.json();
@@ -12,12 +12,13 @@ fetch("https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2Cplayer&id
   console.log('Error!', err);
 })
 };
+
 loadRealPlayer();
 
 
 
 // Ishod Bay Part Player
-function loadBayPlayer(){
+const loadBayPlayer = () => {
     fetch("https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2Cplayer&id=VSOssYcmn_w&key=AIzaSyDuwQd5h_HvMexLOcKEHFbqMdLLwxpn728")
     .then((res) => {
       return res.json();
@@ -30,5 +31,6 @@ function loadBayPlayer(){
       console.log('Error!', err);
     })
     };
+
     loadBayPlayer();
     

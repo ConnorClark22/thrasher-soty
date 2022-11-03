@@ -1,6 +1,6 @@
 
 // T Funk Baker Part Player
-function loadBakerPlayer(){
+const loadBakerPlayer = () => {
     fetch("https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2Cplayer&id=1uyfck1p430&key=AIzaSyDuwQd5h_HvMexLOcKEHFbqMdLLwxpn728")
     .then((res) => {
       return res.json();

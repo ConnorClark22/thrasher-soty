@@ -1,5 +1,5 @@
 // Louie Lopez Honor Roll Player
-function loadHonorRollPlayer() {
+const loadHonorRollPlayer = () => {
    fetch("https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2Cplayer&id=Y-A7pqw4Mxg&key=AIzaSyDuwQd5h_HvMexLOcKEHFbqMdLLwxpn728")
       .then((res) => {
         return res.json();
@@ -21,7 +21,7 @@ function loadHonorRollPlayer() {
   
   
   //Louie Lopez Again & Again Player
-  function loadAgainPlayer() {
+  const loadAgainPlayer = () => {
     fetch("https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2Cplayer&id=j3QqchwDr10&key=AIzaSyDuwQd5h_HvMexLOcKEHFbqMdLLwxpn728")
       .then((res) => {
         return res.json();

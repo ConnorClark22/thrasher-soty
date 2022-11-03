@@ -1,6 +1,6 @@
 
 // TJ Es Part Player
-function loadEsPlayer(){
+const loadEsPlayer = () => {
     fetch("https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2Cplayer&id=DYFIB4w0k2Y&key=AIzaSyAXamIVH9DbVEAmXVOnZwcZ_lu61ysg5xk")
     .then((res) => {
       return res.json();

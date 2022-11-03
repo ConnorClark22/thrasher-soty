@@ -1,3 +1,4 @@
+//Hamburger Menu
 const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.navLinks');
@@ -7,14 +8,20 @@ const navSlide = () => {
         nav.classList.toggle('nav-active')
     });
     //animate links
-    navLinks.forEach((link, index) =>{
+    navLinks.forEach((link, index) => {
         link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7}s`;
-        console.log(index / 7);
-   
+
     });
 }
 
 navSlide();
+
+
+
+
+
+
+
 
 
 
@@ -36,7 +43,7 @@ const characters = document.getElementById('characters')
 
 
 //Validate data
-function validate() {
+const validate = () => {
 
     clearMessages();
     let errorFlag = false;
@@ -59,16 +66,16 @@ function validate() {
         errorFlag = true;
     }
 
-    if(!errorFlag){
+    if (!errorFlag) {
         success.innerText = "Thanks " + nameInput.value + ", your message was sent!";
     }
-}
+};
 
 
 
 // Max Characters / Character Count
 messageLimit.addEventListener('keypress', (event) => {
-    const text = messageLimit.value
+    const text = messageLimit.value;
     if (text.length >= 299) {
         event.preventDefault()
     }
@@ -77,8 +84,9 @@ messageLimit.addEventListener('keypress', (event) => {
 
 
 
+
 //clear error / success messages
-function clearMessages() {
+const clearMessages = () => {
     for (let i = 0; i < errorNodes.length; i++) {
         errorNodes[i].innerText = "";
     }
@@ -86,14 +94,12 @@ function clearMessages() {
     nameInput.classList.remove("error-border");
     email.classList.remove("error-border");
     message.classList.remove("error-border");
-}
+};
 
-//Check if email is valid
-function emailIsValid(email) {
+const emailIsValid = email => {
     let pattern = /\S+@\S+\.\S+/;
     return pattern.test(email);
-}
-
+};
 
 
 

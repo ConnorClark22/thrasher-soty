@@ -1,6 +1,6 @@
 
 // Braden Emerge Part Player
-function loadEmergePlayer(){
+const loadEmergePlayer = () => {
     fetch("https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2Cplayer&id=oDunzfTeeFY&key=AIzaSyDuwQd5h_HvMexLOcKEHFbqMdLLwxpn728")
     .then((res) => {
       return res.json();
@@ -21,7 +21,7 @@ function loadEmergePlayer(){
 
     
 // Braden Vaccine Part Player
-function loadVaccinePlayer(){
+const loadVaccinePlayer = () => {
     fetch("https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2Cplayer&id=RoPERS_U-uA&key=AIzaSyDuwQd5h_HvMexLOcKEHFbqMdLLwxpn728")
     .then((res) => {
       return res.json();
