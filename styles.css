@@ -13,6 +13,7 @@ body {
 body {
     background-color: #cad2c5;
 }
+
 /*--- NAV BAR STYLES ---*/
 
 
@@ -35,6 +36,7 @@ body {
     letter-spacing: 10px;
     font-size: 20px;
 }
+
 .navLinks {
     position: absolute;
     right: 0px;
@@ -69,6 +71,7 @@ body {
         opacity: 0;
         transform: translateX(35px);
     }
+
     to {
         opacity: 1;
         transform: translateX(0px);
@@ -88,44 +91,11 @@ body {
 
 
 .burger div {
-   width: 25px;
-   height: 2px;
-   background-color: #cad2c5;
-   margin: 5px;
+    width: 25px;
+    height: 2px;
+    background-color: #cad2c5;
+    margin: 5px;
 }
-
-
-
-/*.navBar {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column: 1 / 4;
-    padding: 1em;
-    justify-items: center;
-    background-color: black;
-    font-family: 'syncopate';
-}
-
-
-.topLink {
-    text-decoration: none;
-    color: #cad2c5;
-}
-
-.topLink:hover {
-    color: #8d99ae;
-}
-/*
-
-
-
-
-
-
-
-
-
-
 
 /*--- HOME PAGE STYLES ---*/
 
@@ -151,7 +121,6 @@ body {
     text-align: center;
     font-size: 20px;
     letter-spacing: 3px;
-    margin-top: 2em;
     grid-column: 2 / 12;
     grid-row: 2 / 3;
 }
@@ -181,12 +150,12 @@ body {
     text-align: center;
     padding: 5px;
     font-size: 20px;
-    margin-top: 2em;
+    margin-top: .5em;
     grid-column: 2 / 12;
     grid-row: 5 / 6;
 }
 
-#countdown{
+#countdown {
     background-color: black;
     color: #cad2c5;
     font-family: 'lato';
@@ -231,7 +200,7 @@ body {
 #louie {
     grid-column: 2 / 12;
     grid-row: 8 / 9;
-    margin-top: 2em;
+    margin-top: 4em;
 }
 
 .louiePic {
@@ -329,17 +298,6 @@ body {
 /*--- END HOME PAGE STYLES ---*/
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*--- IFRAME STYLES ---*/
 
 iframe {
@@ -351,13 +309,6 @@ iframe {
 }
 
 /*---END IFRAME STYLES ---*/
-
-
-
-
-
-
-
 
 
 /*--- PROFILE HEADER STYLES ---*/
@@ -376,13 +327,6 @@ iframe {
 /*--- END PROFILE HEADER STYLES ---*/
 
 
-
-
-
-
-
-
-
 /*--- DEFINES PROFILE PAGE GRIDS ---*/
 
 .profileGrid {
@@ -397,34 +341,14 @@ iframe {
 /*--- END PROFILE GRID ---*/
 
 
-
-
-
-
-
-
-
 /*--- PROFILE TEXT STYLES ---*/
 
 .profileText {
     font-family: 'lato';
     font-size: 20px;
-    text-align: center;
 }
 
 /*--- END PROFILE TEXT STYLES ---*/
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*--- LOUIE STYLES ---*/
@@ -502,18 +426,6 @@ iframe {
 /*--- END LOUIE STYLES ---*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*--- ISHOD STYLES ---*/
 
 #ishodIntro {
@@ -579,22 +491,7 @@ iframe {
     grid-row: 9 / 10;
 }
 
-
-
 /*--- END ISHOD STYLES ---*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*--- T FUNK STYLES ---*/
@@ -652,20 +549,6 @@ iframe {
 }
 
 /*--- END T FUNK STYLES ---*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*--- BRADEN STYLES ---*/
@@ -737,23 +620,10 @@ iframe {
 #bradenPic6 {
     max-width: 100%;
     grid-column: 2 / 12;
-    grid-row: 10 / 11 ;
+    grid-row: 10 / 11;
 }
 
 /*--- END BRADEN STYLES ---*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*--- WADE STYLES ---*/
@@ -773,6 +643,7 @@ iframe {
     grid-column: 2 / 12;
     grid-row: 3 / 4;
 }
+
 #defineApi {
     position: relative;
     width: 100%;
@@ -804,16 +675,6 @@ iframe {
 }
 
 /*--- END WADE STYLES ---*/
-
-
-
-
-
-
-
-
-
-
 
 
 /*--- JAKE STYLES ---*/
@@ -873,16 +734,6 @@ iframe {
 /*--- END JAKE STYLES ---*/
 
 
-
-
-
-
-
-
-
-
-
-
 /*--- KADER STYLES ---*/
 
 #kaderIntro {
@@ -932,15 +783,6 @@ iframe {
 }
 
 /*--- END KADER STYLES ---*/
-
-
-
-
-
-
-
-
-
 
 
 /*--- TJ STYLES ---*/
@@ -999,13 +841,6 @@ iframe {
 /*--- END TJ STYLES ---*/
 
 
-
-
-
-
-
-
-
 /*--- DEFINES ABOUT PAGE GRID ---*/
 
 .aboutGrid {
@@ -1020,17 +855,9 @@ iframe {
 /*--- END ABOUT GRID ---*/
 
 
-
-
-
-
-
-
-
-
 /*--- ABOUT PAGE STYLES ---*/
 
-.aboutText{
+.aboutText {
     font-family: 'lato';
     font-size: 20px;
     text-align: center;
@@ -1094,14 +921,6 @@ iframe {
 }
 
 /*--- END ABOUT PAGE STYLES ---*/
-
-
-
-
-
-
-
-
 
 
 /*--- CONTACT PAGE STYLES ---*/
@@ -1190,3 +1009,241 @@ input[type="submit"] {
     color: green;
 }
 
+/*--- END CONTACT PAGE STYLES ---*/
+
+
+
+
+/*--- TABLET MEDIA QUERY ---*/
+@media only screen and (min-width: 768px) {
+
+    /*--- NAV BAR TABLET ---*/
+
+    .phoneNav {
+        display: none;
+    }
+
+    .navBar {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column: 1 / 4;
+        padding: 1em;
+        justify-items: center;
+        background-color: black;
+        font-family: 'syncopate';
+    }
+
+
+    .topLink {
+        text-decoration: none;
+        color: #cad2c5;
+    }
+
+    .topLink:hover {
+        color: #8d99ae;
+    }
+
+    /*--- END NAV BAR TABLET ---*/
+
+
+    /*--- HOME PAGE TABLET ---*/
+
+    #logo {
+        grid-column: 3 / 11;
+        grid-row: 1 / 2;
+    }
+    
+
+    #louie {
+        grid-column: 2 / 7;
+        grid-row: 8 / 9;
+    }
+    
+    .louiePic {
+        grid-column: 2 / 7;
+        grid-row: 9 / 10;
+    }
+    
+    #ishod {
+        grid-column: 7 / 12;
+        grid-row: 8 / 9;
+    
+    }
+    
+    .ishodPic {
+        grid-column: 7 / 12;
+        grid-row: 9 / 10;
+    }
+
+    #tFunk {
+        grid-column: 2 / 7;
+        grid-row: 10 / 11;
+    }
+    
+    .tFunkPic {
+        grid-column: 2 / 7;
+        grid-row: 11 / 12;
+    }
+    
+    #braden {
+        grid-column: 7 / 12;
+        grid-row: 10 / 11;
+    }
+    
+    .bradenPic {
+        grid-column: 7 / 12;
+        grid-row: 11 / 12;
+    }
+
+    #wade {
+        grid-column: 2 / 7;
+        grid-row: 12 / 13;
+    }
+    
+    .wadePic {
+        grid-column: 2 / 7;
+        grid-row: 13 / 14;
+    }
+    
+    #jake {
+        grid-column: 7 / 12;
+        grid-row: 12 / 13;
+        margin-top: 4em;
+    }
+    
+    .jakePic {
+        max-width: 100%;
+        grid-column: 7 / 12;
+        grid-row: 13 / 14;
+    }
+
+    #kader {
+        grid-column: 2 / 7;
+        grid-row: 14 / 15;
+        margin-top: 4em;
+    }
+    
+    .kaderPic {
+        max-width: 100%;
+        grid-column: 2 / 7;
+        grid-row: 15 / 16;
+    }
+    
+    #tj {
+        grid-column: 7 / 12;
+        grid-row: 14 / 15;
+        margin-top: 4em;
+    }
+    
+    .tjPic {
+        max-width: 100%;
+        grid-column: 7 / 12;
+        grid-row: 15 / 16;
+        margin-bottom: 4em;
+    }
+
+    /*--- END HOME PAGE TABLET ---*/
+
+
+    /*--- LOUIE TABLET ---*/
+
+    #louieIntro {
+        grid-column: 2 / 7;
+        grid-row: 1 / 2;
+        align-items: center;
+    }
+    
+    #louiePic2 {
+        max-width: 100%;
+        grid-column: 7 / 12;
+        grid-row: 1 / 2;
+    }
+    
+    #honorRollInfo {
+        grid-column: 2 / 12;
+        grid-row: 2 / 3;
+    }
+    
+    #honorRollApi {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+    
+    #honorRollApi {
+        grid-column: 2 / 12;
+        grid-row: 3 / 4;
+    }
+    
+    #againInfo {
+        grid-column: 2 / 12;
+        grid-row: 4 / 5;
+    }
+    
+    #againApi {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+    
+    #againApi {
+        grid-column: 2 / 12;
+        grid-row: 5 / 6;
+    }
+    
+    #louiePic3 {
+        max-width: 100%;
+        grid-column: 2 / 7;
+        grid-row: 6 / 7;
+    }
+    
+    #louiePic4 {
+        max-width: 100%;
+        grid-column: 7 / 12;
+        grid-row: 6 / 7;
+    }
+    
+    #louiePic5 {
+        max-width: 100%;
+        grid-column: 2 / 7;
+        grid-row: 7 / 8;
+    }
+    
+    #louiePic6 {
+        max-width: 100%;
+        grid-column: 7 / 12;
+        grid-row: 7 / 8;
+        margin-bottom: 2em;
+    }
+    
+
+
+
+
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
