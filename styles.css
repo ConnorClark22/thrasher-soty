@@ -47,12 +47,13 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
-    width: 25%;
+    width: 40%;
     transform: translateX(100%);
 }
 
 .navLinks li {
     opacity: 0;
+    margin-left: 1em;
 }
 
 .burger {
@@ -101,7 +102,7 @@ body {
 
 .homeGrid {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(14, 1fr);
     grid-template-rows: repeat(24, auto);
     column-gap: 1em;
     row-gap: 1em;
@@ -111,7 +112,7 @@ body {
 
 #logo {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 1 / 2;
     justify-content: center;
 }
@@ -121,7 +122,7 @@ body {
     text-align: center;
     font-size: 20px;
     letter-spacing: 3px;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 2 / 3;
 }
 
@@ -130,7 +131,7 @@ body {
     text-align: center;
     font-size: 20px;
     letter-spacing: 5px;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 3 / 4;
 }
 
@@ -140,7 +141,7 @@ body {
     padding: 5px;
     margin-top: 1em;
     font-size: 20px;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 4 / 5;
 }
 
@@ -151,7 +152,7 @@ body {
     padding: 5px;
     font-size: 20px;
     margin-top: .5em;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 5 / 6;
 }
 
@@ -162,7 +163,7 @@ body {
     text-align: center;
     padding: 10px;
     font-size: 20px;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 6 / 7;
 }
 
@@ -173,7 +174,7 @@ body {
     letter-spacing: 3px;
     margin-top: 2em;
     padding: 5px;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 7 / 8;
 }
 
@@ -198,19 +199,19 @@ body {
 }
 
 #louie {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 8 / 9;
     margin-top: 4em;
 }
 
 .louiePic {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 9 / 10;
 }
 
 #ishod {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 10 / 11;
     margin-top: 4em;
 
@@ -218,79 +219,79 @@ body {
 
 .ishodPic {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 11 / 12;
 }
 
 #tFunk {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 12 / 13;
     margin-top: 4em;
 }
 
 .tFunkPic {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 13 / 14;
 }
 
 #braden {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 14 / 15;
     margin-top: 4em;
 }
 
 .bradenPic {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 15 / 16;
 }
 
 #wade {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 16 / 17;
     margin-top: 4em;
 }
 
 .wadePic {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 17 / 18;
 }
 
 #jake {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 18 / 19;
     margin-top: 4em;
 }
 
 .jakePic {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 19 / 20;
 }
 
 #kader {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 20 / 21;
     margin-top: 4em;
 }
 
 .kaderPic {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 21 / 22;
 }
 
 #tj {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 22 / 23;
     margin-top: 4em;
 }
 
 .tjPic {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 23 / 24;
     margin-bottom: 4em;
 }
@@ -331,7 +332,7 @@ iframe {
 
 .profileGrid {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(14, 1fr);
     grid-template-rows: repeat(12, auto);
     column-gap: 1em;
     row-gap: 1em;
@@ -354,18 +355,18 @@ iframe {
 /*--- LOUIE STYLES ---*/
 
 #louieIntro {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 1 / 2;
 }
 
 #louiePic2 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 2 / 3;
 }
 
 #honorRollInfo {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 3 / 4;
 }
 
@@ -377,12 +378,12 @@ iframe {
 }
 
 #honorRollApi {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 4 / 5;
 }
 
 #againInfo {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 5 / 6;
 }
 
@@ -394,31 +395,31 @@ iframe {
 }
 
 #againApi {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 6 / 7;
 }
 
 #louiePic3 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 7 / 8;
 }
 
 #louiePic4 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 8 / 9;
 }
 
 #louiePic5 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 9 / 10;
 }
 
 #louiePic6 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 10 / 11;
     margin-bottom: 2em;
 }
@@ -429,18 +430,18 @@ iframe {
 /*--- ISHOD STYLES ---*/
 
 #ishodIntro {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 1 / 2;
 }
 
 #ishodPic2 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 2 / 3;
 }
 
 #realPart {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 3 / 4;
 }
 
@@ -452,12 +453,12 @@ iframe {
 }
 
 #realApi {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 4 / 5;
 }
 
 #bayInfo {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 5 / 6;
 }
 
@@ -469,25 +470,25 @@ iframe {
 }
 
 #bayApi {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 6 / 7;
 }
 
 #ishodPic3 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 7 / 8;
 }
 
 #ishodPic4 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 8 / 9;
 }
 
 #ishodPic5 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 9 / 10;
 }
 
@@ -497,18 +498,18 @@ iframe {
 /*--- T FUNK STYLES ---*/
 
 #tFunkIntro {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 1 / 2;
 }
 
 #tFunkPic2 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 2 / 3;
 }
 
 #bakerInfo {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 3 / 4;
 }
 
@@ -520,31 +521,31 @@ iframe {
 }
 
 #bakerApi {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 4 / 5;
 }
 
 #tFunkPic3 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 5 / 6;
 }
 
 #tFunkPic4 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 6 / 7;
 }
 
 #tFunkPic5 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 7 / 8;
 }
 
 #tFunkPic6 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 8 / 9;
 }
 
@@ -554,18 +555,18 @@ iframe {
 /*--- BRADEN STYLES ---*/
 
 #bradenIntro {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 1 / 2;
 }
 
 #bradenPic2 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 2 / 3;
 }
 
 #emergeInfo {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 3 / 4;
 }
 
@@ -578,12 +579,12 @@ iframe {
 
 
 #emergeApi {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 4 / 5;
 }
 
 #vaccineInfo {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 5 / 6;
 }
 
@@ -595,31 +596,31 @@ iframe {
 }
 
 #vaccineApi {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 6 / 7;
 }
 
 #bradenPic3 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 7 / 8;
 }
 
 #bradenPic4 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 8 / 9;
 }
 
 #bradenPic5 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 9 / 10;
 }
 
 #bradenPic6 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 10 / 11;
 }
 
@@ -629,18 +630,18 @@ iframe {
 /*--- WADE STYLES ---*/
 
 #wadeIntro {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 1 / 2;
 }
 
 #wadePic2 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 2 / 3;
 }
 
 #defineInfo {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 3 / 4;
 }
 
@@ -652,25 +653,25 @@ iframe {
 }
 
 #defineApi {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 4 / 5;
 }
 
 #wadePic3 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 5 / 6;
 }
 
 #wadePic4 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 6 / 7;
 }
 
 #wadePic5 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 7 / 8;
 }
 
@@ -680,18 +681,18 @@ iframe {
 /*--- JAKE STYLES ---*/
 
 #jakeIntro {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 1 / 2;
 }
 
 #jakePic2 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 2 / 3;
 }
 
 #stopInfo {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 3 / 4;
 }
 
@@ -703,31 +704,31 @@ iframe {
 }
 
 #stopApi {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 4 / 5;
 }
 
 #jakePic3 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 5 / 6;
 }
 
 #jakePic4 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 6 / 7;
 }
 
 #jakePic5 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 7 / 8;
 }
 
 #jakePic6 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 8 / 9;
 }
 
@@ -737,18 +738,18 @@ iframe {
 /*--- KADER STYLES ---*/
 
 #kaderIntro {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 1 / 2;
 }
 
 #kaderPic2 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 2 / 3;
 }
 
 #adidasInfo {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 3 / 4;
 }
 
@@ -760,25 +761,25 @@ iframe {
 }
 
 #adidasApi {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 4 / 5;
 }
 
 #kaderPic3 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 5 / 6;
 }
 
 #kaderPic4 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 6 / 7;
 }
 
 #kaderPic5 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 7 / 8;
 }
 
@@ -788,18 +789,18 @@ iframe {
 /*--- TJ STYLES ---*/
 
 #tjIntro {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 1 / 2;
 }
 
 #tjPic2 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 2 / 3;
 }
 
 #esInfo {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 3 / 4;
 }
 
@@ -811,30 +812,25 @@ iframe {
 }
 
 #esApi {
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 4 / 5;
 }
 
 #tjPic3 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 5 / 6;
-}
-
-#esInfo2 {
-    grid-column: 2 / 12;
-    grid-row: 6 / 7;
 }
 
 #tjPic4 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 7 / 8;
 }
 
 #tjPic5 {
     max-width: 100%;
-    grid-column: 2 / 12;
+    grid-column: 2 / 14;
     grid-row: 8 / 9;
 }
 
@@ -860,18 +856,19 @@ iframe {
 .aboutText {
     font-family: 'lato';
     font-size: 20px;
-    text-align: center;
 }
+
+
 
 #aboutInfo {
     grid-column: 2 / 12;
-    grid-row: 1 / 2;
+    grid-row: 2 / 3;
 }
 
 #trophy {
     max-width: 100%;
     grid-column: 2 / 12;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
 }
 
 #winnerHeading {
@@ -881,7 +878,7 @@ iframe {
     letter-spacing: 3px;
     margin: 20px;
     grid-column: 2 / 12;
-    grid-row: 3 / 4;
+    grid-row: 4 / 5;
 }
 
 #winnerList {
@@ -889,7 +886,7 @@ iframe {
     font-size: 15px;
     list-style: none;
     grid-column: 1 / 6;
-    grid-row: 4 / 5;
+    grid-row: 5 / 6;
 }
 
 #winnerList2 {
@@ -897,34 +894,33 @@ iframe {
     font-size: 15px;
     list-style: none;
     grid-column: 6 / 13;
-    grid-row: 4 / 5;
+    grid-row: 5 / 6;
 }
 
 #partInfo {
     grid-column: 2 / 12;
-    grid-row: 5 / 6;
+    grid-row: 6 / 7;
 }
 
 #partChart {
     grid-column: 2 / 12;
-    grid-row: 6 / 7;
+    grid-row: 7 / 8;
 }
 
 #styleInfo {
     grid-column: 2 / 12;
-    grid-row: 7 / 8;
+    grid-row: 8 / 9;
 }
 
 #styleChart {
     grid-column: 2 / 12;
-    grid-row: 8 / 9;
+    grid-row: 9 / 10;
 }
 
 /*--- END ABOUT PAGE STYLES ---*/
 
 
 /*--- CONTACT PAGE STYLES ---*/
-
 #contactHead {
     font-family: 'syncopate';
     text-align: center;
@@ -1018,12 +1014,12 @@ input[type="submit"] {
 @media only screen and (min-width: 768px) {
 
     /*--- NAV BAR TABLET ---*/
-
     .phoneNav {
         display: none;
     }
 
     .navBar {
+        font-size: 18px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-column: 1 / 4;
@@ -1041,103 +1037,105 @@ input[type="submit"] {
 
     .topLink:hover {
         color: #8d99ae;
+        font-weight: 700;
     }
 
     /*--- END NAV BAR TABLET ---*/
 
 
     /*--- HOME PAGE TABLET ---*/
-
     #logo {
-        grid-column: 3 / 11;
-        grid-row: 1 / 2;
+        grid-column: 3 / 13;
     }
-    
+
+    #contenders {
+        font-size: 25px;
+    }
 
     #louie {
-        grid-column: 2 / 7;
+        grid-column: 2 / 8;
         grid-row: 8 / 9;
     }
-    
+
     .louiePic {
-        grid-column: 2 / 7;
+        grid-column: 2 / 8;
         grid-row: 9 / 10;
     }
-    
+
     #ishod {
-        grid-column: 7 / 12;
+        grid-column: 8 / 14;
         grid-row: 8 / 9;
-    
+
     }
-    
+
     .ishodPic {
-        grid-column: 7 / 12;
+        grid-column: 8 / 14;
         grid-row: 9 / 10;
     }
 
     #tFunk {
-        grid-column: 2 / 7;
+        grid-column: 2 / 8;
         grid-row: 10 / 11;
     }
-    
+
     .tFunkPic {
-        grid-column: 2 / 7;
+        grid-column: 2 / 8;
         grid-row: 11 / 12;
     }
-    
+
     #braden {
-        grid-column: 7 / 12;
+        grid-column: 8 / 14;
         grid-row: 10 / 11;
     }
-    
+
     .bradenPic {
-        grid-column: 7 / 12;
+        grid-column: 8 / 14;
         grid-row: 11 / 12;
     }
 
     #wade {
-        grid-column: 2 / 7;
+        grid-column: 2 / 8;
         grid-row: 12 / 13;
     }
-    
+
     .wadePic {
-        grid-column: 2 / 7;
+        grid-column: 2 / 8;
         grid-row: 13 / 14;
     }
-    
+
     #jake {
-        grid-column: 7 / 12;
+        grid-column: 8 / 14;
         grid-row: 12 / 13;
         margin-top: 4em;
     }
-    
+
     .jakePic {
         max-width: 100%;
-        grid-column: 7 / 12;
+        grid-column: 8 / 14;
         grid-row: 13 / 14;
     }
 
     #kader {
-        grid-column: 2 / 7;
+        grid-column: 2 / 8;
         grid-row: 14 / 15;
         margin-top: 4em;
     }
-    
+
     .kaderPic {
         max-width: 100%;
-        grid-column: 2 / 7;
+        grid-column: 2 / 8;
         grid-row: 15 / 16;
     }
-    
+
     #tj {
-        grid-column: 7 / 12;
+        grid-column: 8 / 14;
         grid-row: 14 / 15;
         margin-top: 4em;
     }
-    
+
     .tjPic {
         max-width: 100%;
-        grid-column: 7 / 12;
+        grid-column: 8 / 14;
         grid-row: 15 / 16;
         margin-bottom: 4em;
     }
@@ -1146,87 +1144,746 @@ input[type="submit"] {
 
 
     /*--- LOUIE TABLET ---*/
-
     #louieIntro {
-        grid-column: 2 / 7;
-        grid-row: 1 / 2;
-        align-items: center;
+        grid-column: 2 / 8;
     }
-    
+
     #louiePic2 {
-        max-width: 100%;
-        grid-column: 7 / 12;
+        grid-column: 8 / 14;
         grid-row: 1 / 2;
     }
-    
+
+
+    #louiePic3 {
+        grid-column: 2 / 8;
+        grid-row: 7 / 8;
+    }
+
+    #louiePic4 {
+        grid-column: 8 / 14;
+        grid-row: 7 / 8;
+    }
+
+    #louiePic5 {
+        grid-column: 2 / 8;
+        grid-row: 8 / 9;
+    }
+
+    #louiePic6 {
+        grid-column: 8 / 14;
+        grid-row: 8 / 9;
+    }
+
+    /*--- END LOUIE TABLET ---*/
+
+
+    /*--- ISHOD TABLET ---*/
+    #ishodIntro {
+        grid-column: 8 / 14;
+    }
+
+    #ishodPic2 {
+        grid-column: 2 / 8;
+        grid-row: 1 / 2;
+    }
+
+
+    #ishodPic3 {
+        grid-column: 2 / 8;
+        grid-row: 7 / 8;
+    }
+
+    #ishodPic4 {
+        grid-column: 8 / 14;
+        grid-row: 7 / 8;
+    }
+
+    /*--- END ISHOD TABLET ---*/
+
+
+    /*--- TFUNK TABLET ---*/
+
+    #tFunkIntro {
+        grid-column: 8 / 14;
+    }
+
+    #tFunkPic2 {
+        grid-column: 2 / 8;
+        grid-row: 1 / 2;
+    }
+
+    #tFunkPic3 {
+        grid-column: 2 / 8;
+        grid-row: 5 / 6;
+    }
+
+    #tFunkPic4 {
+        grid-column: 8 / 14;
+        grid-row: 5 / 6;
+    }
+
+    #tFunkPic5 {
+        grid-column: 2 / 8;
+        grid-row: 6 / 7;
+    }
+
+    #tFunkPic6 {
+        grid-column: 8 / 14;
+        grid-row: 6 / 7;
+    }
+
+    /*--- END TFUNK TABLET ---*/
+
+
+    /*--- BRADEN TABLET ---*/
+    #bradenIntro {
+        grid-column: 2 / 8;
+    }
+
+    #bradenPic2 {
+        grid-column: 8 / 14;
+        grid-row: 1 / 2;
+    }
+
+    #bradenPic3 {
+        grid-column: 2 / 8;
+        grid-row: 7 / 8;
+    }
+
+    #bradenPic4 {
+        grid-column: 8 / 14;
+        grid-row: 7 / 8;
+    }
+
+    #bradenPic5 {
+        grid-column: 2 / 8;
+        grid-row: 8 / 9;
+    }
+
+    #bradenPic6 {
+        grid-column: 8 / 14;
+        grid-row: 8 / 9;
+    }
+
+    /*--- END BRADEN TABLET ---*/
+
+
+    /*--- WADE TABLET ---*/
+    #wadeIntro {
+        grid-column: 8 / 14;
+    }
+
+    #wadePic2 {
+        grid-column: 2 / 8;
+        grid-row: 1 / 2;
+    }
+
+    #wadePic3 {
+        grid-column: 2 / 8;
+        grid-row: 5 / 6;
+    }
+
+    #wadePic4 {
+        grid-column: 8 / 14;
+        grid-row: 5 / 6;
+    }
+
+    /*--- END WADE TABLET ---*/
+
+
+    /*--- JAKE TABLET ---*/
+
+    #jakeIntro {
+        grid-column: 2 / 8;
+    }
+
+    #jakePic2 {
+        grid-column: 8 / 14;
+        grid-row: 1 / 2;
+    }
+
+    #jakePic3 {
+        grid-column: 2 / 8;
+        grid-row: 5 / 6;
+    }
+
+    #jakePic4 {
+        grid-column: 8 / 14;
+        grid-row: 5 / 6;
+    }
+
+    #jakePic5 {
+        grid-column: 2 / 8;
+        grid-row: 6 / 7;
+    }
+
+    #jakePic6 {
+        grid-column: 8 / 14;
+        grid-row: 6 / 7;
+    }
+
+    /*--- END JAKE TABLET ---*/
+
+
+    /*--- KADER TABLET ---*/
+    #kaderIntro {
+        grid-column: 8 / 14;
+    }
+
+    #kaderPic2 {
+        grid-column: 2 / 8;
+        grid-row: 1 / 2;
+    }
+
+    #kaderPic3 {
+        grid-column: 2 / 8;
+        grid-row: 5 / 6;
+    }
+
+    #kaderPic4 {
+        grid-column: 8 / 14;
+        grid-row: 5 / 6;
+    }
+
+    /*--- END KADER TABLET ---*/
+
+
+    /*--- TJ TABLET ---*/
+    #tjIntro {
+        grid-column: 2 / 8;
+    }
+
+    #tjPic2 {
+        grid-column: 8 / 14;
+        grid-row: 1 / 2;
+    }
+
+    #tjPic4 {
+        grid-column: 2 / 8;
+        grid-row: 6 / 7;
+    }
+
+    #tjPic5 {
+        grid-column: 8 / 14;
+        grid-row: 6 / 7;
+    }
+
+    /*--- END TJ TABLET ---*/
+
+
+    /*--- ABOUT TABLET ---*/
+    #winnerHeading {
+        font-size: 25px;
+    }
+
+    #winnerList {
+        font-size: 18px;
+    }
+
+    #winnerList2 {
+        font-size: 18px;
+    }
+
+    #partInfo {
+        grid-column: 3 / 6;
+        grid-row: 6 / 7;
+        margin-top: 2em;
+    }
+
+    #partChart {
+        grid-column: 2 / 7;
+        grid-row: 7 / 8;
+        margin-top: 2em;
+        align-self: center;
+    }
+
+    #styleInfo {
+        grid-column: 8 / 11;
+        grid-row: 6 / 7;
+        margin-top: 2em;
+        align-self: center;
+    }
+
+    #styleChart {
+        grid-column: 7 / 12;
+        grid-row: 7 / 8;
+        margin-top: 2em;
+        align-self: center;
+    }
+
+    /*--- END ABOUT TABLET ---*/
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    /*--- HOME DESKTOP ---*/
+
+
+    #logo {
+        grid-column: 5 / 11;
+    }
+
+    #homeInfo {
+        grid-column: 4 / 12;
+    }
+
+    #contenders {
+        font-size: 30px;
+    }
+
+    #louie {
+        grid-column: 2 / 5;
+        grid-row: 8 / 9;
+    }
+
+    .louiePic {
+        grid-column: 2 / 5;
+        grid-row: 9 / 10;
+    }
+
+    #ishod {
+        grid-column: 5 / 8;
+        grid-row: 8 / 9;
+
+    }
+
+    .ishodPic {
+        grid-column: 5 / 8;
+        grid-row: 9 / 10;
+    }
+
+    #tFunk {
+        grid-column: 8 / 11;
+        grid-row: 8 / 9;
+    }
+
+    .tFunkPic {
+        grid-column: 8 / 11;
+        grid-row: 9 / 10;
+    }
+
+    #braden {
+        grid-column: 11 / 14;
+        grid-row: 8 / 9;
+    }
+
+    .bradenPic {
+        grid-column: 11 / 14;
+        grid-row: 9 / 10;
+    }
+
+    #wade {
+        grid-column: 2 / 5;
+        grid-row: 10 / 11;
+    }
+
+    .wadePic {
+        grid-column: 2 / 5;
+        grid-row: 11 / 12;
+    }
+
+    #jake {
+        grid-column: 5 / 8;
+        grid-row: 10 / 11;
+    }
+
+    .jakePic {
+        grid-column: 5 / 8;
+        grid-row: 11 / 12;
+    }
+
+    #kader {
+        grid-column: 8 / 11;
+        grid-row: 10 / 11;
+    }
+
+    .kaderPic {
+        grid-column: 8 / 11;
+        grid-row: 11 / 12;
+    }
+
+    #tj {
+        grid-column: 11 / 14;
+        grid-row: 10 / 11;
+    }
+
+    .tjPic {
+        grid-column: 11 / 14;
+        grid-row: 11 / 12;
+    }
+
+    /*--- END HOME DESKTOP ---*/
+
+
+    /*--- LOUIE DESKTOP ---*/
+    #louieIntro {
+        grid-column: 4 / 12;
+        margin-bottom: 2em;
+    }
+
+    #louiePic2 {
+        grid-column: 2 / 8;
+        grid-row: 2 / 3;
+    }
+
+    #louiePic4 {
+        grid-column: 8 / 14;
+        grid-row: 2 / 3;
+    }
+
     #honorRollInfo {
-        grid-column: 2 / 12;
+        grid-column: 2 / 8;
+        grid-row: 3 / 4;
+    }
+
+    #honorRollApi {
+        grid-column: 2 / 8;
+        grid-row: 4 / 5;
+    }
+
+    #againInfo {
+        grid-column: 8 / 14;
+        grid-row: 3 / 4;
+        align-self: center;
+    }
+
+    #againApi {
+        grid-column: 8 / 14;
+        grid-row: 4 / 5;
+    }
+
+    #louiePic3 {
+        grid-column: 2 / 6;
+        grid-row: 5 / 6;
+    }
+
+
+    #louiePic5 {
+        max-width: 100%;
+        grid-column: 6 / 10;
+        grid-row: 5 / 6;
+    }
+
+    #louiePic6 {
+        max-width: 100%;
+        grid-column: 10 / 14;
+        grid-row: 5 / 6;
+    }
+
+    /*--- END LOUIE DESKTOP ---*/
+
+
+    /*--- ISHOD DESKTOP ---*/
+    #ishodIntro {
+        grid-column: 4 / 12;
+        grid-row: 1 / 2;
+    }
+
+    #ishodPic2 {
+        grid-column: 2 / 8;
+        grid-row: 2 / 3;
+    }
+
+    #ishodPic5 {
+        grid-column: 8 / 14;
+        grid-row: 2 / 3;
+    }
+
+    #realPart {
+        grid-column: 2 / 8;
+        grid-row: 3 / 4;
+        align-self: center;
+    }
+
+    #realApi {
+        grid-column: 2 / 8;
+        grid-row: 4 / 5;
+    }
+
+    #bayInfo {
+        grid-column: 8 / 14;
+        grid-row: 3 / 4;
+        align-self: center;
+    }
+
+    #bayApi {
+        grid-column: 8 / 14;
+        grid-row: 4 / 5;
+    }
+
+    #ishodPic3 {
+        grid-column: 2 / 8;
+        grid-row: 5 / 6;
+    }
+
+    #ishodPic4 {
+        grid-column: 8 / 14;
+        grid-row: 5 / 6;
+    }
+
+    /*--- END ISHOD DESKTOP ---*/
+
+
+    /*--- TFUNK DESKTOP ---*/
+    #tFunkIntro {
+        grid-column: 4 / 12;
+    }
+
+    #tFunkPic2 {
+        grid-column: 2 / 8;
+        grid-row: 2 / 3;
+    }
+
+    #tFunkPic3 {
+        grid-column: 8 / 14;
+        grid-row: 2 / 3;
+    }
+
+    #bakerInfo {
+        grid-column: 2 / 8;
+        grid-row: 3 / 4;
+        align-self: center;
+    }
+
+    #bakerApi {
+        grid-column: 8 / 14;
+        grid-row: 3 / 4;
+    }
+
+    #tFunkPic4 {
+        grid-column: 2 / 6;
+        grid-row: 4 / 5;
+    }
+
+    #tFunkPic5 {
+        grid-column: 6 / 10;
+        grid-row: 4 / 5;
+    }
+
+    #tFunkPic6 {
+        grid-column: 10 / 14;
+        grid-row: 4 / 5;
+    }
+
+    /*--- END TFUNK DESKTOP ---*/
+
+
+    /*--- BRADEN DESKTOP ---*/
+    #bradenIntro {
+        grid-column: 4 / 12;
+    }
+
+    #bradenPic2 {
+        grid-column: 2 / 8;
+        grid-row: 2 / 3;
+    }
+
+    #bradenPic3 {
+        grid-column: 8 / 14;
+        grid-row: 2 / 3;
+    }
+
+    #emergeInfo {
+        grid-column: 2 / 8;
+        grid-row: 3 / 4;
+        align-self: center;
+    }
+
+    #emergeApi {
+        grid-column: 2 / 8;
+        grid-row: 4 / 5;
+    }
+
+    #vaccineInfo {
+        grid-column: 8 / 14;
+        grid-row: 3 / 4;
+    }
+
+    #vaccineApi {
+        grid-column: 8 / 14;
+        grid-row: 4 / 5;
+    }
+
+    #bradenPic4 {
+        grid-column: 2 / 6;
+        grid-row: 5/ 6;
+    }
+
+    #bradenPic5 {
+        grid-column: 6 / 10;
+        grid-row: 5 / 6;
+    }
+
+    #bradenPic6 {
+        grid-column: 10 / 14;
+        grid-row: 5 / 6;
+    }
+
+    /*--- END BRADEN DESKTOP ---*/
+
+
+    /*--- WADE DESKTOP ---*/
+    #wadeIntro {
+        grid-column: 4 / 12;
+    }
+
+    #wadePic2 {
+        grid-column: 2 / 8;
+        grid-row: 2 / 3;
+    }
+
+    #wadePic3 {
+        grid-column: 8 / 14;
+        grid-row: 2 / 3;
+    }
+
+    #defineInfo {
+        grid-column: 4 / 12;
+        grid-row: 3 / 4;
+    }
+
+    #defineApi {
+        grid-column: 4 / 12;
+        grid-row: 4 / 5;
+    }
+
+    #wadePic4 {
+        grid-column: 2 / 8;
+        grid-row: 5 / 6;
+    }
+
+    #wadePic5 {
+        grid-column: 8 / 14;
+        grid-row: 5 / 6;
+    }
+
+    /*--- END WADE DESKTOP ---*/
+
+
+    /*--- JAKE DESKTOP ---*/
+    #jakeIntro {
+        grid-column: 4 / 12;
+    }
+
+    #jakePic2 {
+        grid-column: 2 / 8;
+        grid-row: 2 / 3;
+    }
+
+    #jakePic6 {
+        grid-column: 8 / 14;
+        grid-row: 2 / 3;
+    }
+
+    #stopInfo {
+        grid-column: 4 / 12;
+        grid-row: 3 / 4;
+    }
+
+    #stopApi {
+        grid-column: 4 / 12;
+        grid-row: 4 / 5;
+    }
+
+    #jakePic3 {
+        grid-column: 2 / 6;
+        grid-row: 5 / 6;
+    }
+
+    #jakePic4 {
+        grid-column: 6 / 10;
+        grid-row: 5 / 6;
+    }
+
+    #jakePic5 {
+        grid-column: 10 / 14;
+        grid-row: 5 / 6;
+    }
+    /*--- END JAKE DESKTOP ---*/
+
+
+    /*--- KADER DESKTOP ---*/
+    #kaderIntro {
+        grid-column: 4 / 12;
+    }
+    
+    #kaderPic2 {
+        grid-column: 2 / 8;
+        grid-row: 2 / 3;
+    }
+
+    #kaderPic3 {
+        grid-column: 8 / 14;
         grid-row: 2 / 3;
     }
     
-    #honorRollApi {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-        height: 0;
-    }
-    
-    #honorRollApi {
-        grid-column: 2 / 12;
+    #adidasInfo {
+        grid-column: 4 / 12;
         grid-row: 3 / 4;
     }
     
-    #againInfo {
-        grid-column: 2 / 12;
+    #adidasApi {
+        grid-column: 4 / 12;
         grid-row: 4 / 5;
     }
-    
-    #againApi {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-        height: 0;
-    }
-    
-    #againApi {
-        grid-column: 2 / 12;
+        
+    #kaderPic4 {
+        grid-column: 2 / 8;
         grid-row: 5 / 6;
     }
     
-    #louiePic3 {
-        max-width: 100%;
-        grid-column: 2 / 7;
-        grid-row: 6 / 7;
+    #kaderPic5 {
+        grid-column: 8 / 14;
+        grid-row: 5 / 6;
+    }
+    /*--- END KADER DESKTOP ---*/
+
+
+    /*--- TJ DESKTOP ---*/
+    #tjIntro {
+        grid-column: 4 / 12;
     }
     
-    #louiePic4 {
-        max-width: 100%;
-        grid-column: 7 / 12;
-        grid-row: 6 / 7;
+    #tjPic2 {
+        grid-column: 2 / 8;
+        grid-row: 2 / 3;
+    }
+
+    #tjPic3 {
+        grid-column: 8 / 14;
+        grid-row: 2 / 3;
     }
     
-    #louiePic5 {
-        max-width: 100%;
-        grid-column: 2 / 7;
-        grid-row: 7 / 8;
+    #esInfo {
+        grid-column: 4 / 12;
+        grid-row: 3 / 4;
     }
     
-    #louiePic6 {
-        max-width: 100%;
-        grid-column: 7 / 12;
-        grid-row: 7 / 8;
-        margin-bottom: 2em;
+    #esApi {
+        grid-column: 4 / 12;
+        grid-row: 4 / 5;
     }
     
-
-
-
-
-
+    #tjPic4 {
+        grid-column: 2 / 8;
+        grid-row: 5 / 6;
+    }
+    
+    #tjPic5 {
+        grid-column: 8 / 14;
+        grid-row: 5 / 6;
+    }
     
     
-    
-    
+
+
+
+
+
+
+
+
 
 
 

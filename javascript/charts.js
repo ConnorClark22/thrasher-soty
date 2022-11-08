@@ -20,7 +20,7 @@ let options = {
   title:`Previous Winner's Part Production`,
   backgroundColor: '#cad2c5',
   fontSize: 12,
-  width: 370,
+  width: 340,
   colors: ['#fca311', '#023047', '#eb5e28']
 };
 
@@ -45,7 +45,7 @@ function loadStyleChart() {
     title:`Previous Winner's Skate Style`,
     backgroundColor: '#cad2c5',
     fontSize: 12,
-    width: 370,
+    width: 340,
     colors: ['#fca311', '#023047', '#eb5e28']
   };
   
