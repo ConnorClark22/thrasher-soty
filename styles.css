@@ -9,13 +9,11 @@ body {
     box-sizing: 0px;
 }
 
-
 body {
     background-color: #cad2c5;
 }
 
 /*--- NAV BAR STYLES ---*/
-
 
 .navBar {
     display: none;
@@ -109,73 +107,54 @@ body {
     justify-items: center;
 }
 
-
 #logo {
     max-width: 100%;
     grid-column: 2 / 14;
-    grid-row: 1 / 2;
     justify-content: center;
 }
 
-#contest {
+.homeText {
     font-family: 'syncopate';
     text-align: center;
     font-size: 20px;
+}
+#contest {
     letter-spacing: 3px;
     grid-column: 2 / 14;
-    grid-row: 2 / 3;
 }
 
 #year {
-    font-family: 'syncopate';
-    text-align: center;
-    font-size: 20px;
     letter-spacing: 5px;
     grid-column: 2 / 14;
-    grid-row: 3 / 4;
 }
 
 #homeInfo {
     font-family: 'lato';
-    text-align: center;
     padding: 5px;
     margin-top: 1em;
-    font-size: 20px;
     grid-column: 2 / 14;
-    grid-row: 4 / 5;
 }
 
-
 #winner {
-    font-family: 'syncopate';
-    text-align: center;
     padding: 5px;
-    font-size: 20px;
     margin-top: .5em;
     grid-column: 2 / 14;
-    grid-row: 5 / 6;
 }
 
 #countdown {
     background-color: black;
     color: #cad2c5;
     font-family: 'lato';
-    text-align: center;
     padding: 10px;
-    font-size: 20px;
     grid-column: 2 / 14;
-    grid-row: 6 / 7;
+    border-radius: 5px;
 }
 
 #contenders {
-    font-family: 'syncopate';
-    text-align: center;
-    font-size: 20px;
     letter-spacing: 3px;
-    margin-top: 2em;
+    margin-top: 1em;
     padding: 5px;
     grid-column: 2 / 14;
-    grid-row: 7 / 8;
 }
 
 
@@ -190,7 +169,9 @@ body {
     font-family: 'syncopate';
     letter-spacing: 3px;
     font-size: 16px;
-
+    border-radius: 5px;
+    grid-column: 2 / 14;
+    margin-top: 2em;
 }
 
 .profileLink:hover {
@@ -198,102 +179,9 @@ body {
     font-weight: 700;
 }
 
-#louie {
+.homePics {
     grid-column: 2 / 14;
-    grid-row: 8 / 9;
-    margin-top: 4em;
-}
-
-.louiePic {
     max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 9 / 10;
-}
-
-#ishod {
-    grid-column: 2 / 14;
-    grid-row: 10 / 11;
-    margin-top: 4em;
-
-}
-
-.ishodPic {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 11 / 12;
-}
-
-#tFunk {
-    grid-column: 2 / 14;
-    grid-row: 12 / 13;
-    margin-top: 4em;
-}
-
-.tFunkPic {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 13 / 14;
-}
-
-#braden {
-    grid-column: 2 / 14;
-    grid-row: 14 / 15;
-    margin-top: 4em;
-}
-
-.bradenPic {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 15 / 16;
-}
-
-#wade {
-    grid-column: 2 / 14;
-    grid-row: 16 / 17;
-    margin-top: 4em;
-}
-
-.wadePic {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 17 / 18;
-}
-
-#jake {
-    grid-column: 2 / 14;
-    grid-row: 18 / 19;
-    margin-top: 4em;
-}
-
-.jakePic {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 19 / 20;
-}
-
-#kader {
-    grid-column: 2 / 14;
-    grid-row: 20 / 21;
-    margin-top: 4em;
-}
-
-.kaderPic {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 21 / 22;
-}
-
-#tj {
-    grid-column: 2 / 14;
-    grid-row: 22 / 23;
-    margin-top: 4em;
-}
-
-.tjPic {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 23 / 24;
-    margin-bottom: 4em;
 }
 
 /*--- END HOME PAGE STYLES ---*/
@@ -323,6 +211,7 @@ iframe {
     text-align: center;
     margin: 2em;
     padding: 1em;
+    border-radius: 5px;
 }
 
 /*--- END PROFILE HEADER STYLES ---*/
@@ -347,494 +236,33 @@ iframe {
 .profileText {
     font-family: 'lato';
     font-size: 20px;
+    grid-column: 2 / 14;
 }
 
 /*--- END PROFILE TEXT STYLES ---*/
 
 
-/*--- LOUIE STYLES ---*/
+/*--- PROFILE PICTURE STYLES ---*/
 
-#louieIntro {
-    grid-column: 2 / 14;
-    grid-row: 1 / 2;
-}
-
-#louiePic2 {
+.profilePics {
     max-width: 100%;
     grid-column: 2 / 14;
-    grid-row: 2 / 3;
 }
 
-#honorRollInfo {
-    grid-column: 2 / 14;
-    grid-row: 3 / 4;
-}
+/*--- END PROFILE PICTURE STYLES ---*/
 
-#honorRollApi {
+
+/*--- API VIDEO STYLES ---*/
+
+.videos {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
-}
-
-#honorRollApi {
     grid-column: 2 / 14;
-    grid-row: 4 / 5;
 }
 
-#againInfo {
-    grid-column: 2 / 14;
-    grid-row: 5 / 6;
-}
-
-#againApi {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-}
-
-#againApi {
-    grid-column: 2 / 14;
-    grid-row: 6 / 7;
-}
-
-#louiePic3 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 7 / 8;
-}
-
-#louiePic4 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 8 / 9;
-}
-
-#louiePic5 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 9 / 10;
-}
-
-#louiePic6 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 10 / 11;
-    margin-bottom: 2em;
-}
-
-/*--- END LOUIE STYLES ---*/
-
-
-/*--- ISHOD STYLES ---*/
-
-#ishodIntro {
-    grid-column: 2 / 14;
-    grid-row: 1 / 2;
-}
-
-#ishodPic2 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 2 / 3;
-}
-
-#realPart {
-    grid-column: 2 / 14;
-    grid-row: 3 / 4;
-}
-
-#realApi {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-}
-
-#realApi {
-    grid-column: 2 / 14;
-    grid-row: 4 / 5;
-}
-
-#bayInfo {
-    grid-column: 2 / 14;
-    grid-row: 5 / 6;
-}
-
-#bayApi {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-}
-
-#bayApi {
-    grid-column: 2 / 14;
-    grid-row: 6 / 7;
-}
-
-#ishodPic3 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 7 / 8;
-}
-
-#ishodPic4 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 8 / 9;
-}
-
-#ishodPic5 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 9 / 10;
-}
-
-/*--- END ISHOD STYLES ---*/
-
-
-/*--- T FUNK STYLES ---*/
-
-#tFunkIntro {
-    grid-column: 2 / 14;
-    grid-row: 1 / 2;
-}
-
-#tFunkPic2 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 2 / 3;
-}
-
-#bakerInfo {
-    grid-column: 2 / 14;
-    grid-row: 3 / 4;
-}
-
-#bakerApi {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-}
-
-#bakerApi {
-    grid-column: 2 / 14;
-    grid-row: 4 / 5;
-}
-
-#tFunkPic3 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 5 / 6;
-}
-
-#tFunkPic4 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 6 / 7;
-}
-
-#tFunkPic5 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 7 / 8;
-}
-
-#tFunkPic6 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 8 / 9;
-}
-
-/*--- END T FUNK STYLES ---*/
-
-
-/*--- BRADEN STYLES ---*/
-
-#bradenIntro {
-    grid-column: 2 / 14;
-    grid-row: 1 / 2;
-}
-
-#bradenPic2 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 2 / 3;
-}
-
-#emergeInfo {
-    grid-column: 2 / 14;
-    grid-row: 3 / 4;
-}
-
-#emergeApi {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-}
-
-
-#emergeApi {
-    grid-column: 2 / 14;
-    grid-row: 4 / 5;
-}
-
-#vaccineInfo {
-    grid-column: 2 / 14;
-    grid-row: 5 / 6;
-}
-
-#vaccineApi {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-}
-
-#vaccineApi {
-    grid-column: 2 / 14;
-    grid-row: 6 / 7;
-}
-
-#bradenPic3 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 7 / 8;
-}
-
-#bradenPic4 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 8 / 9;
-}
-
-#bradenPic5 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 9 / 10;
-}
-
-#bradenPic6 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 10 / 11;
-}
-
-/*--- END BRADEN STYLES ---*/
-
-
-/*--- WADE STYLES ---*/
-
-#wadeIntro {
-    grid-column: 2 / 14;
-    grid-row: 1 / 2;
-}
-
-#wadePic2 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 2 / 3;
-}
-
-#defineInfo {
-    grid-column: 2 / 14;
-    grid-row: 3 / 4;
-}
-
-#defineApi {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-}
-
-#defineApi {
-    grid-column: 2 / 14;
-    grid-row: 4 / 5;
-}
-
-#wadePic3 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 5 / 6;
-}
-
-#wadePic4 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 6 / 7;
-}
-
-#wadePic5 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 7 / 8;
-}
-
-/*--- END WADE STYLES ---*/
-
-
-/*--- JAKE STYLES ---*/
-
-#jakeIntro {
-    grid-column: 2 / 14;
-    grid-row: 1 / 2;
-}
-
-#jakePic2 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 2 / 3;
-}
-
-#stopInfo {
-    grid-column: 2 / 14;
-    grid-row: 3 / 4;
-}
-
-#stopApi {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-}
-
-#stopApi {
-    grid-column: 2 / 14;
-    grid-row: 4 / 5;
-}
-
-#jakePic3 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 5 / 6;
-}
-
-#jakePic4 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 6 / 7;
-}
-
-#jakePic5 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 7 / 8;
-}
-
-#jakePic6 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 8 / 9;
-}
-
-/*--- END JAKE STYLES ---*/
-
-
-/*--- KADER STYLES ---*/
-
-#kaderIntro {
-    grid-column: 2 / 14;
-    grid-row: 1 / 2;
-}
-
-#kaderPic2 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 2 / 3;
-}
-
-#adidasInfo {
-    grid-column: 2 / 14;
-    grid-row: 3 / 4;
-}
-
-#adidasApi {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-}
-
-#adidasApi {
-    grid-column: 2 / 14;
-    grid-row: 4 / 5;
-}
-
-#kaderPic3 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 5 / 6;
-}
-
-#kaderPic4 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 6 / 7;
-}
-
-#kaderPic5 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 7 / 8;
-}
-
-/*--- END KADER STYLES ---*/
-
-
-/*--- TJ STYLES ---*/
-
-#tjIntro {
-    grid-column: 2 / 14;
-    grid-row: 1 / 2;
-}
-
-#tjPic2 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 2 / 3;
-}
-
-#esInfo {
-    grid-column: 2 / 14;
-    grid-row: 3 / 4;
-}
-
-#esApi {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-}
-
-#esApi {
-    grid-column: 2 / 14;
-    grid-row: 4 / 5;
-}
-
-#tjPic3 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 5 / 6;
-}
-
-#tjPic4 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 7 / 8;
-}
-
-#tjPic5 {
-    max-width: 100%;
-    grid-column: 2 / 14;
-    grid-row: 8 / 9;
-}
-
-/*--- END TJ STYLES ---*/
+/*--- END API VIDEO STYLES ---*/
 
 
 /*--- DEFINES ABOUT PAGE GRID ---*/
@@ -858,7 +286,10 @@ iframe {
     font-size: 20px;
 }
 
-
+#aboutLogo {
+    max-width: 100%;
+    grid-column: 2 / 12;
+}
 
 #aboutInfo {
     grid-column: 2 / 12;
@@ -1057,7 +488,7 @@ input[type="submit"] {
         grid-row: 8 / 9;
     }
 
-    .louiePic {
+    #louiePic {
         grid-column: 2 / 8;
         grid-row: 9 / 10;
     }
@@ -1065,10 +496,9 @@ input[type="submit"] {
     #ishod {
         grid-column: 8 / 14;
         grid-row: 8 / 9;
-
     }
 
-    .ishodPic {
+    #ishodPic {
         grid-column: 8 / 14;
         grid-row: 9 / 10;
     }
@@ -1078,7 +508,7 @@ input[type="submit"] {
         grid-row: 10 / 11;
     }
 
-    .tFunkPic {
+    #tFunkPic {
         grid-column: 2 / 8;
         grid-row: 11 / 12;
     }
@@ -1088,7 +518,7 @@ input[type="submit"] {
         grid-row: 10 / 11;
     }
 
-    .bradenPic {
+    #bradenPic {
         grid-column: 8 / 14;
         grid-row: 11 / 12;
     }
@@ -1098,7 +528,7 @@ input[type="submit"] {
         grid-row: 12 / 13;
     }
 
-    .wadePic {
+    #wadePic {
         grid-column: 2 / 8;
         grid-row: 13 / 14;
     }
@@ -1106,11 +536,9 @@ input[type="submit"] {
     #jake {
         grid-column: 8 / 14;
         grid-row: 12 / 13;
-        margin-top: 4em;
     }
 
-    .jakePic {
-        max-width: 100%;
+    #jakePic {
         grid-column: 8 / 14;
         grid-row: 13 / 14;
     }
@@ -1118,10 +546,9 @@ input[type="submit"] {
     #kader {
         grid-column: 2 / 8;
         grid-row: 14 / 15;
-        margin-top: 4em;
     }
 
-    .kaderPic {
+    #kaderPic {
         max-width: 100%;
         grid-column: 2 / 8;
         grid-row: 15 / 16;
@@ -1130,14 +557,12 @@ input[type="submit"] {
     #tj {
         grid-column: 8 / 14;
         grid-row: 14 / 15;
-        margin-top: 4em;
     }
 
-    .tjPic {
+    #tjPic {
         max-width: 100%;
         grid-column: 8 / 14;
         grid-row: 15 / 16;
-        margin-bottom: 4em;
     }
 
     /*--- END HOME PAGE TABLET ---*/
@@ -1372,6 +797,19 @@ input[type="submit"] {
 
 
     /*--- ABOUT TABLET ---*/
+
+    #aboutLogo {
+        grid-column: 4 / 10;
+    }
+
+    #aboutInfo {
+        grid-column: 3 / 11;
+    }
+
+    #trophy {
+        grid-column: 4 / 10;
+    }
+
     #winnerHeading {
         font-size: 25px;
     }
@@ -1437,7 +875,7 @@ input[type="submit"] {
         grid-row: 8 / 9;
     }
 
-    .louiePic {
+    #louiePic {
         grid-column: 2 / 5;
         grid-row: 9 / 10;
     }
@@ -1448,7 +886,7 @@ input[type="submit"] {
 
     }
 
-    .ishodPic {
+    #ishodPic {
         grid-column: 5 / 8;
         grid-row: 9 / 10;
     }
@@ -1458,7 +896,7 @@ input[type="submit"] {
         grid-row: 8 / 9;
     }
 
-    .tFunkPic {
+    #tFunkPic {
         grid-column: 8 / 11;
         grid-row: 9 / 10;
     }
@@ -1468,7 +906,7 @@ input[type="submit"] {
         grid-row: 8 / 9;
     }
 
-    .bradenPic {
+    #bradenPic {
         grid-column: 11 / 14;
         grid-row: 9 / 10;
     }
@@ -1478,7 +916,7 @@ input[type="submit"] {
         grid-row: 10 / 11;
     }
 
-    .wadePic {
+    #wadePic {
         grid-column: 2 / 5;
         grid-row: 11 / 12;
     }
@@ -1488,7 +926,7 @@ input[type="submit"] {
         grid-row: 10 / 11;
     }
 
-    .jakePic {
+    #jakePic {
         grid-column: 5 / 8;
         grid-row: 11 / 12;
     }
@@ -1498,7 +936,7 @@ input[type="submit"] {
         grid-row: 10 / 11;
     }
 
-    .kaderPic {
+    #kaderPic {
         grid-column: 8 / 11;
         grid-row: 11 / 12;
     }
@@ -1508,7 +946,7 @@ input[type="submit"] {
         grid-row: 10 / 11;
     }
 
-    .tjPic {
+    #tjPic {
         grid-column: 11 / 14;
         grid-row: 11 / 12;
     }
@@ -1874,33 +1312,5 @@ input[type="submit"] {
         grid-column: 8 / 14;
         grid-row: 5 / 6;
     }
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
