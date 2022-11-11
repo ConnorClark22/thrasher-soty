@@ -348,6 +348,16 @@ iframe {
     grid-row: 9 / 10;
 }
 
+.galleryButton {
+    grid-column: 2 / 12;
+    grid-row: 10 / 11;
+}
+
+#coverGallery {
+    grid-column: 2 / 12;
+    grid-row: 11 / 12;
+}
+
 /*--- END ABOUT PAGE STYLES ---*/
 
 
