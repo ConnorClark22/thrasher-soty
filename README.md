@@ -6,7 +6,7 @@
     
 **1. Calculate and display data based on an external factor**
 
-    This was achieved by creating a live countdow until the day the contest is announced on the home page of the site. 
+-This was achieved by creating a live countdow until the day the contest is announced on the home page of the site. 
 
-    The code for this can be found in the countdown.js file. 
+-The code for this can be found in the countdown.js file. 
  
