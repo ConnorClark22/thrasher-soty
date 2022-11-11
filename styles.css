@@ -286,10 +286,10 @@ iframe {
     font-size: 20px;
 }
 
-#aboutLogo {
+/*#aboutLogo {
     max-width: 100%;
     grid-column: 2 / 12;
-}
+}*/
 
 #aboutInfo {
     grid-column: 2 / 12;
